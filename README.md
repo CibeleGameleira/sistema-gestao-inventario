@@ -27,12 +27,14 @@ Desenvolver um sistema de gestão de inventário utilizando listas, dicionários
 * `git checkout feature/<nome-da-sua-funcionalidade>`
 * `git merge main`
 
+**OBSERVAÇÃO**
+
+Caso haja um **conflito** de _merge_ ao realizar o `git merge main`, corrija antes de realizar o _pull request_. Isso irá poupar tempo dos outros integrantes ao realizar o _**code review**_ do seu _pull request_.
+
 ###  Versionar Suas Alterações (Atualizar _branch_ remota em relação a local)
 
 * `git add .`
 * `git commit -m"sua mensagem"`
 * `git push`
 
-**OBSERVAÇÃO**
 
-Caso haja um **conflito** de _merge_ ao realizar o `git merge main`, corrija antes de realizar o _pull request_. Isso irá poupar tempo dos outros integrantes ao realizar o _**code review**_ do seu _pull request_.
