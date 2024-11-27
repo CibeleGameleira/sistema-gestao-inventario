@@ -1,7 +1,7 @@
-class Produto: 
-    def __init__(id, nomem, quantidade, preco, importado):
-        self.id = id
-        self.nome = nomem
-        self.quantidade = quantidade
-        self.preco = preco
-        self.importado = importado
+class Produto:
+    def __init__(self, id: int, nome: str, quantidade: int, preco: float, importado: bool):
+        self.id: int = id
+        self.nome: str = nome
+        self.quantidade: int = quantidade
+        self.preco: float = preco
+        self.importado: bool = importado
